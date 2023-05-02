@@ -1,0 +1,17 @@
+{
+  "name": "playwire-react",
+  "version": "1.0.0",
+  "description": "React components for Playwire integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PiratePeep",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
