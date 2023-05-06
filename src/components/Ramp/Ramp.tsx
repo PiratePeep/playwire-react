@@ -54,10 +54,9 @@ export default class Ramp extends React.Component<RampProps> {
     if (!window._pwRampComponentLoaded) {
       window._pwRampComponentLoaded = true;
 
-      window.ramp.config = `https://config.playwire.com/${publisherId}/v2/websites/${id}/banner.json`;
+      //window.ramp.config = `https://config.playwire.com/${publisherId}/v2/websites/${id}/banner.json`;
       const configScript = document.createElement("script");
-      // configScript.src = `https://cdn.intergient.com/${publisherId}/${id}/ramp.js`;
-      configScript.src = "https://cdn.intergient.com/ramp_core.js";
+      configScript.src = `https://cdn.intergient.com/${publisherId}/${id}/ramp.js`;
       document.head.appendChild(configScript);
     }
 
