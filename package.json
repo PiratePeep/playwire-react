@@ -1,6 +1,6 @@
 {
   "name": "playwire-react",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "React components for Playwire integration",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
