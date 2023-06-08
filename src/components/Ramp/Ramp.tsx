@@ -1,7 +1,7 @@
 import React from "react";
 
 const oopUnits = [
-  // "trendi_slideshow",
+  "trendi_native",
   "trendi_video",
   "site_skin",
   "flex_leaderboard",
@@ -76,7 +76,7 @@ export default class Ramp extends React.Component<RampProps> {
     window.ramp.que.push(() => {
       window.ramp
         .addUnits([
-          // { type: "trendi_slideshow" },
+          { type: "trendi_native" },
           { type: "trendi_video" },
           { type: "site_skin" },
           { type: "flex_leaderboard" },
